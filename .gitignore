@@ -13,7 +13,7 @@
 /.idea
 .project
 .classpath
-.c9/
+.c9/ng
 *.launch
 .settings/
 *.sublime-workspace

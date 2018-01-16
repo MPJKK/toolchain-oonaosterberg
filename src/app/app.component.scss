@@ -1,0 +1,55 @@
+body {
+  font-family: Helvetica;
+}
+
+.container {
+  max-width: 60rem;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+app-header {
+  display: block;
+  height: 20em;
+}
+
+app-navigation {
+  width: 100%;
+  height: auto;
+  background-color: antiquewhite;
+  display: flex;
+  top: 0;
+}
+
+app-main {
+  background-color: burlywood;
+  width: 70%;
+  height: 500px;
+  float: left;
+}
+
+app-sidebar {
+  background-color: chocolate;
+  float: right;
+  width: 30%;
+  height: 500px;
+}
+app-footer {
+  width: 100%;
+  background-color: crimson;
+  float: left;
+}
+
+
+@media (max-width: 1000px) {
+
+  app-main {
+    width: 100%;
+  }
+
+  app-sidebar {
+    width: 100%;
+  }
+
+}
